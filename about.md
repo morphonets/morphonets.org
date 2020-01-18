@@ -13,4 +13,4 @@ Checkout the update sites:
 - Neuroanatomy
 - Neuroanatomy-Unstable
 
-Current update status: [![Build Status](https://travis-ci.org/morphonets/neuroanatomy.svg?branch=master)](https://travis-ci.org/morphonets/neuroanatomy)
+Current neuroanatomy repository status: [![Build Status](https://travis-ci.org/morphonets/neuroanatomy.svg?branch=master)](https://travis-ci.org/morphonets/neuroanatomy)
