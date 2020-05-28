@@ -7,7 +7,7 @@ title: Morphonets
 
 
 Morphonets is an open, community-driven effort to provide [ImageJ](https://imagej.net)-based tools for generation, visualization, quantification, and modeling of neuroanatomical data. The tools we create are leveraged by the powerful stack of [Scijava](https://scijava.org)-based software.
-Our immediate focus is cellular neuroscience, but the software we developed have been successfully applied to other fields of the biosciences. 
+Our immediate focus is cellular neuroscience, but the software we develop has been successfully applied to other areas of the biosciences. 
 
 
 
@@ -20,7 +20,7 @@ Currently, two major projects are being developed under the Morphonets umbrella:
 
 
 ## Downloads
-All of the software is available in [Fiji](https://imagej.net/Fiji) by means of two [update sites](https://imagej.net/Update_Sites): *Neuroanatomy* and *SciView*:
+All projects are available in [Fiji](https://imagej.net/Fiji) by means of two [update sites](https://imagej.net/Update_Sites): *Neuroanatomy* and *SciView*:
 
 1.  Run the Fiji Updater (*Help › Update...*, the penultimate entry in Fiji's *Help>* menu)
 2.  Click *Manage update sites*
