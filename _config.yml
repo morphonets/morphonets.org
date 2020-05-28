@@ -24,7 +24,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url:		""
 
 # Theme
-theme: jekyll-theme-minimal
+#theme: jekyll-theme-minimal
 
 # Permalinks
 permalink:	pretty
