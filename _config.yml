@@ -21,7 +21,7 @@
 title:		 morpho nets.org
 description: The ImageJ-centric effort for scientific analysis of morphological networks.
 baseurl: "" # the subpath of your site, e.g. /blog
-url:		"https://morphonets.org"
+url:		""
 
 # Theme
 remote_theme:		poole/hyde
