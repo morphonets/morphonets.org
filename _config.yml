@@ -24,7 +24,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url:		""
 
 # Theme
-remote_theme:		poole/hyde
+theme: minima
 
 # Permalinks
 permalink:	pretty
