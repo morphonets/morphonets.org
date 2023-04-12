@@ -14,18 +14,18 @@ Our immediate focus is cellular neuroscience, but the software we develop has be
 ## Projects
 Morphonets has incorporated several projects that were previously scattered across the Fiji ecosystem of plugins. Currently, the following major projects are being developed under the Morphonets umbrella:
 
-- [SNT](https://github.com/morphonets/SNT): A complete framework for (semi-)automated tracing and analysis of neurons ([user-based documentation](https://imagej.net/SNT), [publication](https://doi.org/10.1101/2020.07.13.179325)).
-- Sholl Analysis: Originally hosted at  https://github.com/tferr/ASA ([Project summary](https://github.com/tferr/ASA#sholl-analysis)), _Sholl Analysis_ has been incorporated into SNT ([user-based documentation](https://imagej.net/Sholl), [publication](https://doi.org/10.1038/nmeth.3125)).
-- [Sciview-Cx3D](https://github.com/morphonets/cx3d): A image-based modeling framework powered by Cx3D and [sciview](https://github.com/scenerygraphics/sciview)  ([user-based documentation](https://imagej.net/SNT:_Modeling)).
+- [SNT](https://github.com/morphonets/SNT): A complete framework for (semi-)automated tracing and analysis of neurons ([user-based documentation](https://imagej.net/plugins/snt/), [publication](https://rdcu.be/c9LJe))
+- Sholl Analysis: Originally a [stand-alone project](https://github.com/tferr/ASA#sholl-analysis), _Sholl Analysis_ has been incorporated into SNT ([user-based documentation](https://imagej.net/plugins/sholl-analysis), [publication](https://rdcu.be/c9LI8))
+- [Sciview-Cx3D](https://github.com/morphonets/cx3d): A image-based modeling framework powered by Cx3D and [sciview](https://github.com/scenerygraphics/sciview)  ([user-based documentation](https://imagej.net/plugins/snt/modeling))
 
 
 
 ## Downloads
-All projects are available in [Fiji](https://imagej.net/Fiji) by means of two [update sites](https://imagej.net/Update_Sites): *Neuroanatomy* and optionally *Sciview*:
+All projects are available in [Fiji](https://imagej.net/Fiji) by means of two [update sites](https://imagej.net/Update_Sites): *Neuroanatomy* and optionally *sciview*:
 
 1.  Run the Fiji Updater (*Help › Update...*, the penultimate entry in Fiji's *Help>* menu)
 2.  Click *Manage update sites*
-3.  Select the *Neuroanatomy* checkbox. Optionally, you can also select the *Sciview* checkbox
+3.  Select the *Neuroanatomy* checkbox. Optionally, you can also select the *sciview* checkbox
 4.  Click *Apply changes* and Restart
 
 Problems? Have a look at the [full details](https://github.com/morphonets/SNT#installation).
