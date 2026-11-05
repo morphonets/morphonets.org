@@ -6,7 +6,7 @@ title: Morphonets
 <h1 align="center">Welcome To Morphonets!</h1>
 
 
-Morphonets is an open, community-driven effort to provide [ImageJ](https://imagej.net)-based tools for generation, visualization, quantification, and modeling of neuroanatomical data. The tools we create are leveraged by the powerful stack of [Scijava](https://scijava.org)-based software.
+Morphonets is an open, community-driven effort to provide tools for tracing, visualization, quantification, and modeling of neuroanatomical data, from [Fiji](https://fiji.sc)/[ImageJ](https://imagej.net) to [Python](https://github.com/morphonets/pysnt) and [napari](https://napari.org). The tools we create are leveraged by the powerful stack of [SciJava](https://scijava.org)-based software.
 Our immediate focus is cellular neuroscience, but the software we develop has been successfully applied to other areas of the biosciences. 
 
 
