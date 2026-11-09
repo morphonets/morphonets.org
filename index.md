@@ -14,27 +14,35 @@ Our immediate focus is cellular neuroscience, but the software we develop has be
 ## Projects
 Morphonets has incorporated several projects that were previously scattered across the Fiji ecosystem of plugins. Currently, the following major projects are being developed under the Morphonets umbrella:
 
-- [SNT](https://github.com/morphonets/SNT): The open-source framework for quantification of neuronal anatomy. SNT supports the full reconstruction workflow: semi- and fully automated tracing, proofreading, visualization (2D, 3D and large-volume viewers), morphometry, Sholl and other comparative analyses, and connectivity-oriented graph analysis. It can be driven from the GUI, from multi-language scripts, and reads/writes community standard formats ([documentation](https://imagej.net/plugins/snt/), [publication](https://rdcu.be/c9LJe))
-
-- [SNT Stream](https://imagej.net/plugins/snt/snt-stream): The big data cousin of SNT. SNT Stream enables tracing and analysis of terabyte-scale volumes, including remote OME-Zarr and N5 datasets, with interactive 3D visualization powered by BigDataViewer and BigVolumeViewer ([documentation](https://imagej.net/plugins/snt/snt-stream))
-
-- [PySNT](https://github.com/morphonets/pysnt): A Python wrapper for SNT. It brings SNT's tracing and analysis capabilities to the Python ecosystem (e.g., Jupyter notebooks and NumPy/pandas-based pipelines), without requiring a separate Fiji workflow ([documentation](https://pysnt.readthedocs.io), [PyPI](https://pypi.org/project/pysnt/))
-
-- [napari-snt](https://github.com/morphonets/napari-snt): A [napari](https://napari.org) plugin that bridges napari and SNT. It sends polylines drawn in napari to SNT and receives SNT reconstructions back as napari layers, so that the strengths of both platforms can be combined
-
-- [Sciview-Cx3D](https://github.com/morphonets/cx3d): An image-based modeling framework powered by Cx3D and [sciview](https://github.com/scenerygraphics/sciview)  ([documentation](https://imagej.net/plugins/snt/modeling))
-
-- Sholl Analysis: Originally a [stand-alone project](https://github.com/tferr/ASA#sholl-analysis), _Sholl Analysis_ has been incorporated into SNT ([documentation](https://imagej.net/plugins/sholl-analysis), [publication](https://rdcu.be/c9LI8))
-
+<style>
+.pj-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(16rem,100%),1fr));gap:.9rem;margin:1rem 0 1.5rem}
+.pj-card{border:1px solid #e5e5e5;border-top:3px solid #515151;border-radius:6px;padding:.7rem .8rem;background:#fff;transition:box-shadow .15s,transform .15s}
+.pj-card:hover{box-shadow:0 3px 10px rgba(0,0,0,.15);transform:translateY(-2px)}
+.pj-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:.3rem}
+.pj-name{font-weight:bold;font-size:1rem;color:#313131}
+.pj-tag{font-size:.65rem;text-transform:uppercase;letter-spacing:.05em;color:#fff;background:#6b6b6b;border-radius:3px;padding:0 .4rem}
+.pj-card p{font-size:.82rem;line-height:1.4;margin:0 0 .5rem;color:#515151}
+.pj-links{font-size:.78rem}
+.pj-links a{margin-right:.7rem}
+.pj-grid.pj-2{grid-template-columns:repeat(auto-fit,minmax(min(20rem,100%),1fr))}
+</style>
+<div class="pj-grid">
+<div class="pj-card"><div class="pj-head"><span class="pj-name">SNT</span><span class="pj-tag">Fiji</span></div><p>The open-source framework for quantification of neuronal anatomy: semi- and fully automated tracing, proofreading, 2D, 3D and large-volume visualization, morphometry, Sholl and other comparative analyses, and graph analysis.</p><div class="pj-links"><a href="https://imagej.net/plugins/snt/">Documentation</a><a href="https://rdcu.be/c9LJe">Publication</a><a href="https://github.com/morphonets/SNT">GitHub</a></div></div>
+<div class="pj-card"><div class="pj-head"><span class="pj-name">SNT Stream</span><span class="pj-tag">Fiji</span></div><p>The big data cousin of SNT: tracing and analysis of terabyte-scale volumes, including remote OME-Zarr and N5 datasets, with interactive 3D visualization powered by BigDataViewer and BigVolumeViewer.</p><div class="pj-links"><a href="https://imagej.net/plugins/snt/snt-stream">Documentation</a></div></div>
+<div class="pj-card"><div class="pj-head"><span class="pj-name">PySNT</span><span class="pj-tag">Python</span></div><p>A Python wrapper for SNT that brings its tracing and analysis capabilities to Jupyter notebooks and NumPy/pandas-based pipelines, without a separate Fiji workflow.</p><div class="pj-links"><a href="https://pysnt.readthedocs.io">Documentation</a><a href="/computational-neuroanatomy/">Curriculum</a><a href="https://pypi.org/project/pysnt/">PyPI</a><a href="https://github.com/morphonets/pysnt">GitHub</a></div></div>
+<div class="pj-card"><div class="pj-head"><span class="pj-name">napari-snt</span><span class="pj-tag">napari</span></div><p>A napari plugin that bridges napari and SNT: it sends polylines drawn in napari to SNT and receives SNT reconstructions back as napari layers.</p><div class="pj-links"><a href="https://github.com/morphonets/napari-snt">GitHub</a></div></div>
+<div class="pj-card"><div class="pj-head"><span class="pj-name">Sciview-Cx3D</span><span class="pj-tag">Modeling</span></div><p>An image-based modeling framework for neurodevelopment simulations powered by Cx3D and sciview.</p><div class="pj-links"><a href="https://imagej.net/plugins/snt/modeling">Documentation</a><a href="https://github.com/morphonets/cx3d">GitHub</a></div></div>
+<div class="pj-card"><div class="pj-head"><span class="pj-name">Sholl Analysis</span><span class="pj-tag">Fiji</span></div><p>Sholl analysis directly from images, with no tracing required, or from reconstructions. Originally a stand-alone project, now incorporated into SNT.</p><div class="pj-links"><a href="https://imagej.net/plugins/snt/sholl">Documentation</a><a href="https://rdcu.be/c9LI8">Publication</a></div></div>
+</div>
 
 ## Learning Resources
 
-- [Computational Neuroanatomy with PySNT](https://pysnt.readthedocs.io/en/latest/notebooks/index.html) is a hands-on, self-paced curriculum of runnable notebooks that teaches neuroanatomy in Python using real data. Each notebook states its learning objectives and estimated time, and the series is ordered by increasing complexity: from a single reconstruction to atlas-scale analysis and ML-ready ground truth. It assumes basic Python only, and no prior SNT or Java experience.
-
-- For scripting inside Fiji, SNT ships with dozens of ready-to-run [script templates](https://imagej.net/plugins/snt/scripting) in Groovy and Python covering analysis, batch processing, tracing, rendering, and big data. Open them from the Script Editor (*Templates › Neuroanatomy*) and adapt them to your own data.
-
-- Also available is a series of community resources, from [forum posts](https://forum.image.sc/tag/snt/) to [screencast tutorials](https://imagej.net/plugins/snt/screencasts).
-
+<div class="pj-grid pj-2">
+<div class="pj-card"><div class="pj-head"><span class="pj-name">Computational Neuroanatomy</span><span class="pj-tag">Python</span></div><p>A self-paced series of runnable notebooks that teaches neuroanatomy in Python using real data, from a single reconstruction to atlas-scale analysis and ML-ready ground truth. Assumes basic Python only.</p><div class="pj-links"><a href="/computational-neuroanatomy/">Start the curriculum</a></div></div>
+<div class="pj-card"><div class="pj-head"><span class="pj-name">Script Templates</span><span class="pj-tag">Fiji</span></div><p>More than 70 ready-to-run scripts in Groovy and Python covering analysis, batch processing, tracing, rendering, and big data. Open them from the Script Editor (Templates &gt; Neuroanatomy) and adapt them to your data.</p><div class="pj-links"><a href="https://imagej.net/plugins/snt/scripting">Documentation</a></div></div>
+<div class="pj-card"><div class="pj-head"><span class="pj-name">Screencast Tutorials</span><span class="pj-tag">Video</span></div><p>Video tutorials for getting started with SNT and its main workflows.</p><div class="pj-links"><a href="https://imagej.net/plugins/snt/screencasts">Screencasts</a></div></div>
+<div class="pj-card"><div class="pj-head"><span class="pj-name">Image.sc Forum</span><span class="pj-tag">Community</span></div><p>Questions, tips, and discussions about SNT from users and developers.</p><div class="pj-links"><a href="https://forum.image.sc/tag/snt/">Forum posts</a></div></div>
+</div>
 
 ## Getting Involved
 [Anyone can contribute](https://imagej.net/plugins/snt/contribute)! Contact us on [GitHub](https://github.com/morphonets) or the [Image.sc Forum](https://forum.image.sc/)
