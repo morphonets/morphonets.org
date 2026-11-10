@@ -49,6 +49,4 @@ The source of every notebook is on [GitHub](https://github.com/morphonets/pysnt/
 
 > Ferreira TA, PySNT and SNT contributors. *Computational Neuroanatomy: A Hands-on Curriculum in Python*. [morphonets.org/computational-neuroanatomy](https://morphonets.org/computational-neuroanatomy/), [doi:10.5281/zenodo.24090107](https://doi.org/10.5281/zenodo.24090107)
 
-The curriculum is archived as part of PySNT. You can cite all versions by using the DOI [10.5281/zenodo.24090107](https://doi.org/10.5281/zenodo.24090107). This DOI tracks all versions, and resolves to the latest one.
-
 See also the [SNT citation guidelines](https://imagej.net/plugins/snt/faq#how-do-i-cite-snt).
